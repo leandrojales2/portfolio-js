@@ -1,6 +1,6 @@
 {
     "name": "Leandro Jales",
-    "photo": "https://avatars.githubusercontent.com/u/3266640?v=4",
+    "photo": "https://github.com/leandrojales2/portfolio-js/blob/main/assets/img/photo.jpg",
     "job": "Coordenador de Informações Gerenciais",
     "location": "Rio de Janeiro - RJ",
     "phone": "(21) 96419-3508",
@@ -9,23 +9,23 @@
       "hardSkills": [
         {
           "name": "HTML",
-          "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/nodejs.png"
+          "logo": "https://github.com/leandrojales2/portfolio-js/blob/main/assets/img/tools/html.svg"
         },
         {
           "name": "CSS",
-          "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/java.png"
+          "logo": "https://github.com/leandrojales2/portfolio-js/blob/main/assets/img/tools/css.svg"
         },
         {
           "name": "JavaScript",
-          "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/angular.png"
+          "logo": "https://github.com/leandrojales2/portfolio-js/blob/main/assets/img/tools/javascript.svg"
         },
         {
           "name": "React",
-          "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/react.png"
+          "logo": "https://github.com/leandrojales2/portfolio-js/blob/main/assets/img/tools/react.svg"
         },
         {
           "name": "Python",
-          "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/mongodb.png"
+          "logo": "https://github.com/leandrojales2/portfolio-js/blob/main/assets/img/tools/python.svg"
         }
       ],
       "softSkills": [
@@ -42,30 +42,45 @@
     "portfolio": [
       {
         "name": "Curso Ministrado na DIO para a criação de uma Pokedex",
-        "url": "https://github.com/RenanJPaula/js-developer-pokedex",
+        "url": "https://github.com/leandrojales2/js-developer-pokedex",
         "github": true
       },
       {
         "name": "Curso Ministrado na DIO para a criação de uma página de portfolio",
-        "url": "https://github.com/RenanJPaula/js-developer-portfolio",
+        "url": "https://github.com/leandrojales2/portfolio-js",
+        "github": true
+      }
+      {
+        "name": "Curso Ministrado na DIO para a criação de um Sistema Bancário em Python",
+        "url": "https://github.com/leandrojales2/sistema_bancario-poo",
+        "github": true
+      }
+      {
+        "name": "Curso Ministrado na DIO para a criação de um Menu Bancário em Python",
+        "url": "https://github.com/leandrojales2/menu-bancario",
+        "github": true
+      }
+      {
+        "name": "Curso Ministrado na DIO para clonar o site da HBO MAX com HTML e CSS",
+        "url": "https://github.com/leandrojales2/hbomax",
         "github": true
       }
     ],
     "professionalExperience": [
       {
-        "name": "Arquiteto de software / S3 BANK",
-        "period": "2022 - até o momento",
-        "description": "É um prazer trabalhar ao lado de tantos profissionais excepcionais e construir tantas inovações de mercado."
+        "name": "Coordenador de Sistemas de Informaçãoes Gerenciais / Grande Rio Alimentos",
+        "period": "2016 - até o momento",
+        "description": "Responsável pela elaboração de Relatórios e Dashboards, em Excel com automatizações utilizando VBA, e criação e análise de base de dados do CRM da empresa"
       },
       {
-        "name": "Software Engineering Lead / DIO",
-        "period": "2021 - 2022",
-        "description": "Foi um grande prazer fazer parte deste time fantástico e poder contribuir com a transformação de tantas vidas."
+        "name": "Coordenador de Administração de Vendas / Grande Rio Alimentos",
+        "period": "2018 - 2020",
+        "description": "Responsável pelo apuração e pagamento de comissão de vendas, responsável pela análise de pedidos de vendas em sistema. Ponto focal de vendedores, representantes comerciais e gerentes comerciais, junto ao setor de logística; - Construção de visões gerenciais na ferramenta Excel para a Gerênca geral e Diretoria"
       },
       {
-        "name": "CEO / Brain Machine",
-        "period": "2016 - 2021",
-        "description": "Anos incríveis ao lado de pessoas maravilhosas ajudando muitas empresas por todo o mundo."
+        "name": "Coordenador de Logística / Grande Rio Alimentos",
+        "period": "2014 - 2016",
+        "description": " Responsável pela criação do Sistema de Gestão de Transportes em Access com automatizações com VBA e SQL, voltado para gestão e análise de Abastecimento, peças, mão de obra, e entrada e saída de veículos da empresa; - Construção de visões gerenciais na ferramenta Excel. Responságel pela gestão de Motoristas e Ajudantes"
       }
     ]
   }
