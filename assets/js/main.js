@@ -39,17 +39,12 @@ function updateHardSkills(profileData) {
     try {
         const profileData = await fetchProfileData()
         updateProfileInfo(profileData)
-
-<<<<<<< HEAD
-    const profileData = await fetchProfileData()
-    updateProfileInfo(profileData)
-    updateSoftSkills(profileData)
-    updateHardSkills(profileData)
-=======
+        updateProfileInfo(profileData)
+        updateSoftSkills(profileData)
+        updateHardSkills(profileData)
     } catch (err) {
         console.error("Erro ao buscar dados do perfil:", err);
     }
->>>>>>> b0fdea5b7313a11596e07750f1635ebbda8841eb
-
+    
 })()
 
