@@ -3,7 +3,7 @@ function updateProfileInfo(profileData) {
     const photo = document.getElementById('profile.photo')
     photo.src = profileData.photo
     photo.alt = profileData.name
-    
+
     const name = document.getElementById('profile.name')
     name.innerText = profileData.name
 
@@ -20,7 +20,7 @@ function updateProfileInfo(profileData) {
     const email = document.getElementById('profile.email')
     email.innerText = profileData.email
     email.href = `mailto:${profileData.email}`
-    
+
 }
 
 function updateSoftSkills(profileData) {
@@ -36,11 +36,20 @@ function updateHardSkills(profileData) {
 }
 
 (async () => {
+    try {
+        const profileData = await fetchProfileData()
+        updateProfileInfo(profileData)
 
+<<<<<<< HEAD
     const profileData = await fetchProfileData()
     updateProfileInfo(profileData)
     updateSoftSkills(profileData)
     updateHardSkills(profileData)
+=======
+    } catch (err) {
+        console.error("Erro ao buscar dados do perfil:", err);
+    }
+>>>>>>> b0fdea5b7313a11596e07750f1635ebbda8841eb
 
 })()
 
