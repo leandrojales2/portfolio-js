@@ -9,23 +9,23 @@
       "hardSkills": [
         {
           "name": "HTML",
-          "logo": "https://github.com/leandrojales2/portfolio-js/blob/main/data/imgs/html.svg"
+          "logo": "https://raw.githubusercontent.com/leandrojales2/portfolio-js/main/data/imgs/html.png"
         },
         {
           "name": "CSS",
-          "logo": "https://github.com/leandrojales2/portfolio-js/blob/main/data/imgs/css.svg"
+          "logo": "https://raw.githubusercontent.com/leandrojales2/portfolio-js/main/data/imgs/css.png"
         },
         {
           "name": "JavaScript",
-          "logo": "https://github.com/leandrojales2/portfolio-js/blob/main/data/imgs/javascript.svg"
+          "logo": "https://raw.githubusercontent.com/leandrojales2/portfolio-js/main/data/imgs/javascript.png"
         },
         {
           "name": "React",
-          "logo": "https://github.com/leandrojales2/portfolio-js/blob/main/data/imgs/react.svg"
+          "logo": "https://raw.githubusercontent.com/leandrojales2/portfolio-js/main/data/imgs/react.png"
         },
         {
           "name": "Python",
-          "logo": "https://github.com/leandrojales2/portfolio-js/blob/main/data/imgs/python.svg"
+          "logo": "https://raw.githubusercontent.com/leandrojales2/portfolio-js/main/data/imgs/python.png"
         }
       ],
       "softSkills": [
