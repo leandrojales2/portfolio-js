@@ -5,7 +5,7 @@
 
 @font-face {
     font-family: "Neue Machina";
-    src: url("assets/Fonts/neue-machina-regular.otf");
+    src: url("../Fonts/neue-machina-regular.otf");
 }
 
 body {
@@ -30,7 +30,7 @@ a:hover {
 }
 .main::before {
     content: '';
-    background-image: url('assets/img/background-top.svg');
+    background-image: url('../img/background-top.svg');
     background-repeat: no-repeat;
     background-size: contain;
     display: inline-block;
@@ -43,7 +43,7 @@ a:hover {
 }
 .main::after {
     content: '';
-    background-image: url('assets/img/background-top.svg');
+    background-image: url('../img/background-top.svg');
     background-repeat: no-repeat;
     background-size: contain;
     display: inline-block;
