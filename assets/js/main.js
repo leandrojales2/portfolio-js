@@ -55,6 +55,23 @@ function updatePortfolio(profileData) {
         
 }
 
+function updateProfessionalExperience(profileData) {
+    const professionalExperience = document.getElementById('profile.professionalExperience')
+    debugger
+    professionalExperience.innerHTML = profileData.professionalExperience.map(experience => {
+        return `
+            <li>
+                <h3 class="title">${experience.name}</h3> <br>
+                <span class="period">${experience.period}</span>
+                <p> 
+                    ${experience.description}
+                </p>
+            </li>
+        `
+    }).join('')
+        
+}
+
 (async () => {
     try {
         const profileData = await fetchProfileData()
@@ -64,6 +81,7 @@ function updatePortfolio(profileData) {
         updateHardSkills(profileData)
         updateLanguages(profileData)
         updatePortfolio(profileData)
+        updateProfessionalExperience(profileData)
 
     } catch (err) {
         console.error("Erro ao buscar dados do perfil:", err);
